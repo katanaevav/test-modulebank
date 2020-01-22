@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Тестовое задание Модульбанк</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+
+    <header class="page-header">
+      <nav class="main-nav">
+        <div class="main-nav__search-panel">
+          <svg class="main-nav__logo" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000494764 4.7997L0 0H4.7997L4.80069 4.7997H0.000494764ZM9.60114 0H14.4003H19.2001V4.7997H14.4003H9.60114V0ZM19.2001 9.59941V9.59966L14.4003 9.59966H9.60114V14.3989H14.4003V14.4013H19.2001V19.1996V23.9998H23.9993V19.1996V14.3989H19.2001V9.59966H23.9995L24 4.79971H19.2001H14.4003V9.59941H19.2001ZM9.60114 24V19.2L14.4003 19.1996V24H9.60114ZM9.60089 4.79971H4.80069V9.59941H9.60089V4.79971ZM4.7997 14.3989L4.80069 9.59966H9.60114V14.3989H4.7997ZM9.60089 19.2001V14.3989H4.7997H0V19.2001V23.9998H4.7997L4.7997 19.2001H9.60089ZM0.000494764 4.79971L0 9.59966L4.80069 9.59966L4.80069 4.79971H0.000494764Z" fill="#00417B"/>
+          </svg>
+          <form>
+            <label class="main-nav__search-label">
+              <input class="main-nav__search-input" type="text" placeholder="Поиск">
+            </label>
+          </form>
+        </div>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active"><a href="#">Деньги</a></li>
+          <li class="site-list__item"><a href="#">Контакты</a></li>
+          <li class="site-list__item site-list__item--arrow"><a href="#">Услуги</a></li>
+        </ul>
+        <ul class="main-nav__list cabinet-list">
+          <li class="cabinet-list__item cabinet-list__item--notify">
+            <a href="#">
+              <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 6C6.67157 6 6 6.65435 6 7.46154C6 7.52386 6.01567 7.58396 6.02344 7.64423C3.43046 8.28997 1.5 10.5847 1.5 13.3077V19.8846C1.5 20.2975 1.17377 20.6154 0.75 20.6154H0V22.0769H5.39062C5.30493 22.3077 5.25 22.5497 5.25 22.8077C5.25 24.0098 6.26624 25 7.5 25C8.73376 25 9.75 24.0098 9.75 22.8077C9.75 22.5497 9.69507 22.3077 9.60938 22.0769H15V20.6154H14.25C13.8262 20.6154 13.5 20.2975 13.5 19.8846V13.5132C13.5 10.7666 11.6176 8.31911 8.97656 7.64423C8.98433 7.58396 9 7.52386 9 7.46154C9 6.65435 8.32843 6 7.5 6ZM7.17188 8.92307C7.28099 8.91536 7.3888 8.92315 7.5 8.92307C7.54766 8.92304 7.59262 8.92167 7.64062 8.92307C10.0907 8.99472 12 11.0875 12 13.5132V19.8846C12 20.1426 12.0549 20.3846 12.1406 20.6154H2.85938C2.94507 20.3846 3 20.1426 3 19.8846V13.3077C3 10.9868 4.83364 9.08839 7.17188 8.92307ZM7.5 22.0769C7.9231 22.0769 8.25 22.3954 8.25 22.8077C8.25 23.2199 7.9231 23.5385 7.5 23.5385C7.0769 23.5385 6.75 23.2199 6.75 22.8077C6.75 22.3954 7.0769 22.0769 7.5 22.0769Z" fill="white"/>
+              </svg>
+              <span class="cabinet-list__notify-count">2</span>
+            </a>
+          </li>
+          <li class="cabinet-list__item cabinet-list__item--company">
+            <a href="#">ООО «Родные просторы»</a>
+          </li>
+        </ul>
+        <button class="main-nav__new-payment" type="button" aria-label="Новый платеж">
+          <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M21 42C32.598 42 42 32.598 42 21C42 9.40202 32.598 0 21 0C9.40202 0 0 9.40202 0 21C0 32.598 9.40202 42 21 42ZM20 12C20 11.4477 20.4477 11 21 11C21.5523 11 22 11.4477 22 12V20H30C30.5523 20 31 20.4477 31 21C31 21.5523 30.5523 22 30 22H22V30C22 30.5523 21.5523 31 21 31C20.4477 31 20 30.5523 20 30V22H12C11.4477 22 11 21.5523 11 21C11 20.4477 11.4477 20 12 20H20V12Z" fill="white"/>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="transaction">
+        <h2 class="visability-hidden">Окно транзакции</h2>
+        <div class="transaction__header">
+          <button class="transaction__button transaction__button--close" type="button" aria-label="Закрыть окно транзакции">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M22.071 7.92891C21.6805 7.53839 21.0474 7.53839 20.6569 7.92891L15 13.5858L9.34314 7.92891C8.95264 7.53839 8.31946 7.53839 7.92896 7.92891C7.53842 8.31943 7.53842 8.95259 7.92896 9.34312L13.5858 15L7.92892 20.6568C7.53839 21.0473 7.53839 21.6805 7.92892 22.071C8.31946 22.4616 8.95261 22.4616 9.34314 22.071L15 16.4142L20.6569 22.071C21.0474 22.4616 21.6805 22.4616 22.0711 22.071C22.4616 21.6805 22.4616 21.0473 22.0711 20.6568L16.4142 15L22.071 9.34312C22.4616 8.95259 22.4616 8.31943 22.071 7.92891Z" fill="#2B2B2B"/>
+            </svg>
+          </button>
+          <p>Платежное поручение № 5241234 от 23.09.2015</p>
+        </div>
+        <div class="transaction__data">
+          <p class="transaction__summ">– 23 500,00 ₽</p>
+          <p class="transaction__invoice"><span class="transaction__invoice transaction__invoice--light-text">со счета:</span> Расчетный счет (***012345)</p>
+          <p class="transaction__time-executed">ИСПОЛНЕН, 21 июня 15:33</p>
+          <div class="transaction-card">
+            <div class="transaction-card__main-data">
+              <div class="transaction__propertys">
+                <p class="transaction-company">ООО "Родные просторы"</p>
+                <p class="transaction-detail">ИНН: 22341497819132</p>
+                <p class="transaction-detail">Банк: ОАО Сбербанк</p>
+                <p class="transaction-detail">БИК: 2352362365</p>
+                <p class="transaction-detail">Счет: 40802810970010000395</p>
+              </div>
+              <ul class="transaction__indicators indicators__list">
+                <li class="indicators__item">
+                  <span><a href="#">Высокая финансовая устойчивость</a></span>
+                  <canvas id="fin-draw" width="42" height="42"></canvas>
+                </li>
+                <li class="indicators__item">
+                  <span><a href="#">Высокая благонадежность</a></span>
+                  <canvas id="safe-draw" width="42" height="42"></canvas>
+                </li>
+                <li class="indicators__item">
+                  <span><a href="#">Кредитоспособность 44,5 млрд ₽</a></span>
+                  <canvas id="cred-draw" width="42" height="42"></canvas>
+                </li>
+              </ul>
+            </div>
+            <p class="transaction__description">Оплата за партию ромашек и одуванчиков по договору 14023-023 от 14.05.2015 г. Сумма 11430-00. В том числе НДС 18% - 1450,00 ₽</p>
+          </div>
+          <p class="transaction__additional-info">Комиссия банка: 70 р.<br>Размер комиссии рассчитан автоматически согласно тарифу вашей компании и является ознакомительным. Точный размер комиссии определяется после передачи платежного документа на обработку в банк.</p>
+        </div>
+        <div class="transaction__footer">
+          <button class="transaction__button transaction__button--retry" type="button">Повторить</button>
+          <button class="transaction__button transaction__button--favorites" type="button">В избранное</button>
+          <button class="transaction__button transaction__button--ask" type="button">Спросить</button>
+          <button class="transaction__button transaction__button--action" type="button">Действия</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+
+</html>
