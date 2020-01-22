@@ -7,7 +7,7 @@ ctx0.fill(circle02);
 var circle0 = new Path2D();
 ctx0.fillStyle = "#81C624";
 circle0.moveTo(10, 10);
-circle0.arc(21, 21, 20, 55, 2 * Math.PI +4);
+circle0.arc(21, 21, 20,  1.5 * Math.PI, 1.3 * Math.PI);
 ctx0.fill(circle0);
 var circle01 = new Path2D();
 ctx0.fillStyle = "#FFFFFF";
